@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <main>
+      <div class="parallax-container">
+        <div class="parallax"><img src="/coala-web.png"></div>
+      </div>
+      <div class="section title-desc-cont">
+        <div class="row container">
+          <h1 class="header">{{page.title}}</h1>
+          <h5>{{page.description}}</h5>
+        </div>
+      </div>
+      <div class="section white">
+        <div class="row container post-layout-cont">
+          <p class="grey-text text-darken-3 lighten-3">{{content}}</p>
+          <span>{{page.author}}</span>
+        </div>
+      </div>
+      <div class="container page-container">
+        {%  include nav.html %}
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.parallax').parallax();
+      $('pre').addClass('card');
+      $('img').addClass('responsive-img')
+    });
+</script>
+<style type="text/css">
+  .parallax-container{
+  height: 25em;
+  }
+  .title-desc-cont{
+  background: darkslategrey;
+  color:white;
+  }
+  .post-layout-cont{
+  	text-align: justify;
+  }
+  pre{
+  	    background: black !important;
+    color: white;
+    padding: 1em;
+  }
+</style>

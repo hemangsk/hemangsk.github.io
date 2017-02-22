@@ -1,0 +1,16 @@
+<div class="row">
+   <div class="menu center-block">
+   {% assign sorted_pages = site.pages | sort: 'order' %}
+   {% for p in sorted_pages %}
+   {% if p.menu %}
+      <div class="page-menu">
+      {% if p.permalink %}
+         <a href="/{{ p.permalink }}.html">{{p.title}}</a>
+      {% else %}
+         <a href="/">{{p.title}}</a>
+      {% endif %}   
+      </div>
+   {% endif %}
+   {% endfor %}
+   </div>
+</div>

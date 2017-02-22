@@ -1,0 +1,65 @@
+---
+layout: page_default
+---
+ <div class="row">
+ 	<div class="stories-title center">
+    <span class="stTitle">{{page.title}}</span>
+     <div class="stories-caption">
+     {{page.desc}}
+     </div>
+   </div>
+ </div>
+<section id="story-title center center-block">
+ 
+<div class="row">
+    
+{% for post in site.posts%}
+{% for category in post.categories %}
+{% if category == page.alias %}
+
+{% if page.alias == "projects" %}
+  
+<div class="card">
+
+ <div class="card-content">
+
+    <span class="card-title">{{post.title}}</span>
+    
+        <p>{{post.desc}}</p>
+      
+ </div>
+ <div class="card-action">
+ {{post.project_status}}
+ </div>
+
+</div>
+<br><br>
+{% else %}
+<div class="post postContent">
+  <div class="postTitle center">
+  <a class='postLink' target="blank" href="{{post.url}}">{{post.title}}</a>
+  </div>
+  <center class="postType">{{post.project_type}}</center>
+ 
+  <div class="container dateAndStuff">
+    <div class="row">
+        POSTED ON
+       <span class="posted-on">
+
+         {{ post.date | date: "%A, %B %-d, %Y" }}
+       </span>
+       <span class="in">
+         in
+       </span>
+       <span class="categories-on">
+         {% for category in post.categories%}
+         <span class="chip">{{category}}</span>
+         {% endfor %}
+       </span>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
