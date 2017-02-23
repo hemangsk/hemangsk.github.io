@@ -12,29 +12,34 @@ layout: page_default
 <section id="story-title center center-block">
  
 <div class="row">
+
+{% if page.alias == "projects" %}
+{% for project in site.data.projects %}  
+<div class="card">
+
+ <div class="card-content">
+
+    <span class="card-title">{{project.title}}</span>
+    
+        <p>{{project.desc}}</p>
+      
+ </div>
+ <div class="card-action">
+ {{project.project_status}}
+ </div>
+
+</div>
+<br><br>
+{%  endfor %}
+{% else %}
+
+
     
 {% for post in site.posts%}
 {% for category in post.categories %}
 {% if category == page.alias %}
 
-{% if page.alias == "projects" %}
-  
-<div class="card">
 
- <div class="card-content">
-
-    <span class="card-title">{{post.title}}</span>
-    
-        <p>{{post.desc}}</p>
-      
- </div>
- <div class="card-action">
- {{post.project_status}}
- </div>
-
-</div>
-<br><br>
-{% else %}
 <div class="post postContent">
   <div class="postTitle center">
   <a class='postLink' href="{{post.url}}">{{post.title}}</a>
@@ -60,6 +65,6 @@ layout: page_default
   </div>
 </div>
 {% endif %}
+{% endfor %}
+{% endfor %}
 {% endif %}
-{% endfor %}
-{% endfor %}
