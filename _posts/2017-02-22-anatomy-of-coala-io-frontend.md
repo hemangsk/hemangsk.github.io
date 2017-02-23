@@ -90,7 +90,29 @@ So we took 2 scoops of Angular and 3 cups of Materialize Modal, that is, Angular
 
 **Result**
 
-![](/images/10.png) ![](/images/9.png ) 
+![](/images/10.png) ![](/images/9.png) 
+
+<hr>
+
+#### Tab Navigation with URL Change
+
+![](/images/11.gif)
+
+This is one of the most interesting stuff! Props to our amazing dev GopalaKrishnan P (@[gkrishnan724](https://github.com/gkrishnan)) for making it possible! :)
+
+Using Tabs for navigation made the whole thing feel really smooth and fluid. by default, tabs are supposed to handle on click event by showing content associated with a div, when clicked.
+
+Each tab showed its div on click, [adtac](https://github.com/adtac) noticed a major user story concern, What if the user wants to directly go to a tab?
+
+Since by default clicking tabs doesn't take you to a different link, instead it adds/removes ```display:none``` to/from a set of divs. 
+
+The solution was to use ```ng-view``` to display directives, Add angular routing with directives, And to update out ```setTab``` function to update browser URL on ```tab_click``` event.
+
+And Yaay!
+
+<br>
+<hr> 
+
 
 That's all folks!
 There are a lot more components which I'll make sure to share in upcoming posts :) 
