@@ -65,15 +65,36 @@ Darken ```background``` on hover and its all set!
 
 <hr>
 
-#### Contributor Card-View
+#### Contributor Card View
 
 In the Get Involved section there are cards in which data for each Developer is displayed. Our aim was to incooperate Reviews, Issues Opened, Commits, Bio, Display Picture, Full Name and User name. So we created a two cards, one to be left empty but having a height, and one for contents, and added the display picture exactly in the middle of these two cards. Interestingly, display pictures having transparent background look even more awesome with this effect. Props to [@fneu](http://github.com/fneu) for structuring the Data section in a single row giving equal widths to all 3 data subsections making it super awesome, displaying the count of Commits, Reviews and Issues of Developers.
 
 ![](/images/7.png) ![](/images/6.png) 
 
+<hr>
+
+#### Bear Cards and Bear Details View
+
+Languages section was the favourite part! There was a lot of Angular, Materialize & jQuery mashup to learn while making it. Lasse had already planned an effective page design & structure for Languages Tab ([Mockup](https://app.moqups.com/coala/YLGaMKWoDy/view/page/ad64222d5)). The Search bar basically involved searching for queried string in every bear's json, and then show only those bears cards that have that queried string. Now the ultimate aim was to show bear details to user.
+
+Whilst thinking about it, there were many possible solutions. We could have shown all details in bear cards itself, or, we could have opened a new page when user clicks on the bear and show details of that bear on that new page. 
+
+We looked around for something more interesting. 
+
+Angular said "Use me! I help you create dynamic components in a single page, ain't it cool!". 
+
+Materialize too declared from its chair "And me too, I provide an awesomey modal!"
+
+So we took 2 scoops of Angular and 3 cups of Materialize Modal, that is, Angular's ng-click on bear card, which would send a GET request to server with bear name which has been clicked. Then our server would return that bear's json. While all of this is happening, simultaneously, a Materialize modal will open up, and Bear details would get displayed on that modal. Wuhu!
+
+
+**Result**
+
+![](/images/10.png) ![](/images/9.png ) 
+
 That's all folks!
 There are a lot more components which I'll make sure to share in upcoming posts :) 
 
-Easter Egg:- There's also another frontend work going on presently at the community team, we are Materializing coala Docs. Yeah! Sneak Peek coming real soon! 
+Post Credits Scene : There's also another frontend work going on presently at the community team, we are Materializing coala Docs. Yeah! Sneak Peek coming real soon! 
 
 G'Bye!
