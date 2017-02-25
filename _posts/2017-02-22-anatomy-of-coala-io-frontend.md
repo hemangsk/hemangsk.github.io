@@ -4,6 +4,7 @@ title: "Anatomy Of The coala.io Frontend"
 description: "How we created exciting elements for various usecases"
 categories: ["stories", "coala"]
 bg: images/8.png
+header_color: darkslategrey
 ---
 
 You must have read Kaisar's post ([Here's the link](https://yukiisbored.github.io/blog/2017/02/17/backend-voodoo-magic.html)) about the creating a stable and powerful Backend. It's an account of how the backend server was made stable, and reached a super amazing uptime, Hats Off to @yukiisbored, our DevOps star. Thanks for always being there!
