@@ -4,7 +4,7 @@ title:  "Jekyll Journal Jam"
 categories: jekyll stories
 description: "Making of DevJournal Jekyll Theme"
 bg: images/12.png
-header_color: '#aa0000'
+header_color: '#093750'
 ---
 
 This came to my mind few weeks back when I found a few websites which have this concept of keeping navigation bar and jumbotron of same color.
