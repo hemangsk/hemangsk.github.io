@@ -6,8 +6,16 @@
   <body>
   	<main>
     <div class="container page-container">
+     <div class="row">
+      <div class="stories-title center">
+        <span class="stTitle">{{page.title}}</span>
+         <div class="stories-caption">
+         {{page.desc}}
+         </div>
+       </div>
+     </div>
           {{content}}
-          {%  include nav.html %}
+          {% include nav.html %}
     </div>
     </main>
     {% include footer.html %}
