@@ -71,10 +71,10 @@ footer .col {
 	text-transform: uppercase;
 }
 .menu div a{
-	font-family: "Josefin Sans";
-	font-size: 1.2em;
+	font-family: "Roboto";
+	font-size: 1em;
 	color: darkslategrey !important;
-	font-weight: 900;
+	font-weight: 500;
 	letter-spacing: 0.1em;
 }
 .menu div a:hover{
