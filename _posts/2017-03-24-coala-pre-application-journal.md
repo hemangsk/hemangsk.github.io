@@ -87,4 +87,4 @@ The major aim is to provide meaningful and useful  “Analysis of Analysis” in
 
  That’s all folks!
  
- I'm constantly working towards refinement and redesign of these ideas, If you, my precious reader, think I can improve in the choice of tools, approaches towards solutions, please do get in touch, I'm always up on Gitter, and I go by the username @hemangsk in General coala Chatroom.
+ I'm constantly working towards refinement and redesign of these ideas, If you, my precious reader, think I can improve in the choice of tools or improve in the approache towards solutions, please do get in touch, I'm always up on Gitter, and I go by the username @hemangsk in General coala Chatroom.
