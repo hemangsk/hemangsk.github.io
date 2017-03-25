@@ -13,7 +13,7 @@ The Google Summer of Code 2017 have opened their student application window. I'm
 
 There are a lot of, a lot of proposals expected and only few make it through the multiple levels of evaluation. If I can make it through, that'll add a bucket of summer of code awesomeness to my already awesome journey with coala and contributing to Open Source so far. I have lot of plans and lots of conceptualization on which I am working, refining them and adding them to my application if they fit just right.
 
-I'm planning to cover the following objectives, 
+I'm planning to cover the following objectives in my Proposal, 
 - Creating a powerful backend to run coala online by developing the ```coala Online Module```.
 - Making the coala ```Projects``` web application completely configurable, modular and extensible.
 - Creating a centralized CSS and HTML components source for all coala web Projects.
