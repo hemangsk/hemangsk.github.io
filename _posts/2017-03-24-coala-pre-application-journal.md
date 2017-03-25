@@ -86,3 +86,5 @@ I feel displaying pictorial graphs of severity of issues with the code, can real
 The major aim is to provide meaningful and useful  “Analysis of Analysis” in coala-html. Apart from it, coala-html can use some more of the Material Design. The Card Views for Results, and better colors in syntax highlighting.
 
  That’s all folks!
+ 
+ I'm constantly working towards refinement and redesign of these ideas, If you, my precious reader, think I can improve in the choice of tools, approaches towards solutions, please do get in touch, I'm always up on Gitter, and I go by the username @hemangsk in General coala Chatroom.
