@@ -13,7 +13,7 @@ Yay! Yay! Yahooo! <br>
 Yaay!!
 
 <br>
-Did you hear that!? 
+Can I be anymore happier!?
 
 <br>
 I got selected to work with coala in Google Summer of Code!! We got the mail from Lasse and Google, on the night of 4th may, that was the moment of absolute awesomeness, certainly the best day of my life. Super Special Thanks to Lasse ([@sils](http://github.com/sils)) who will be mentoring me in GSoC. We have created some super cool stuff together. Thank you so much for this opportunity. Get ready, we are ready to rock! :D Super Thanks to my captain and our org admin Maximilian and coala Team for giving me this great opportunity. 
