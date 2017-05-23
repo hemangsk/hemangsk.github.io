@@ -4,7 +4,7 @@ title: "The Making of coalaCSS"
 description: "GSoC Bonding Period Week 2"
 categories: ["stories", "coala"]
 bg: images/8.png
-header_color: darkblue
+header_color: black
 ---
 
 The Making of coalaCSS
