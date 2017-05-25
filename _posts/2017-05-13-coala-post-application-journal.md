@@ -4,7 +4,7 @@ title: "Happiness Rhapsody"
 description: "GSoC Bonding Period Week 1"
 categories: ["stories", "coala"]
 bg: images/8.png
-header_color: darkblue
+header_color: darkslategrey
 ---
 
 Yay! Yay! Yahooo! <br>
