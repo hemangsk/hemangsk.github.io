@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Yayyy! Selected!"
-description: "Yahoooo!"
+title: "Happiness Rhapsody"
+description: "GSoC Bonding Period Week 1"
 categories: ["stories", "coala"]
 bg: images/8.png
 header_color: darkblue
