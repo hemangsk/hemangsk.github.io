@@ -7,8 +7,6 @@ bg: images/8.png
 header_color: crimson
 ---
 
-The Making of coalaCSS
-
 This week I worked on making code in landing-frontend, webServices and projects coala compliant. The aim was to add more critical sections in coafiles, then run coala and do fixing. I added the SpaceConsistencyBear in all three of them. There is a reason why I love this bear more and it is because this is one of the bears which can detect and then FIX stuff as well! Isn't that totally superawesome. You don't have to worry about going navigating through the files to fix the error, instead it fixes the stuff itself, and as a 'user' I am really more than happy to integrate such linters in CI for my all projects. Okay let me tell you one more, it actually fixes the spacing/tab issues for you, without you having to do a thing.
 
 So let me share how we can setup SpaceConsistencyBear for coding projects.
