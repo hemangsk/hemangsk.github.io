@@ -29,7 +29,7 @@ Add bear,
 bears = SpaceConsistencyBear
 ```
 
-Tell them thethe bears what files it should do the fix
+Tell them, the bears, on what files they need to do the fixing
 ```
 [all]
 bears = SpaceConsistencyBear
