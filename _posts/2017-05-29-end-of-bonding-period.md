@@ -11,7 +11,8 @@ This week I finalized the UI mockups for coala-html and coala Online module. So 
 
 You can see overview of the future coala-html right here at https://github.com/coala/coala-html/issues/120. Initially I was using a different searchbar UI, but then me and Lasse discussed on how we can actually make use of coalaCSS in coala-html and make things even more consistent and easy to maintain. 
 
-This week, I planned on coala Online module, which will provide us a backend webservice to run optional and non optional bears. So approach is, 
+This week, I planned on coala Online module, which will provide us a backend webservice to run optional and non optional bears. <br/>
+<p align="center">Revamped Approach</p><br/>
 <img src="https://cloud.githubusercontent.com/assets/13018570/26547162/473e8118-448b-11e7-8ba5-ae2dd9f50458.png"/>
 
 This is from where I'll start the Coding Period. More Awesomeness following up soon!
