@@ -3,7 +3,7 @@ layout: page_default
 title: About
 permalink: about
 menu: true
-order: 4
+order: 5
 ---
 
 <div class="container">
