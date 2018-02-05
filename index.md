@@ -5,6 +5,7 @@ title: Home
 alias: Hemang Kumar
 order: 1
 ---
+<br><br>
 <div class="links row">
    <div class="ic">
       <span class="fa-stack fa-lg">
@@ -31,7 +32,15 @@ order: 1
       </span>
    </div>
 </div>
-<div class="name row" style="margin-bottom: 0.4em !important;">Hemang Kumar</div>
+<br>
+<div class="name row" style="margin-bottom: 0.4em !important;">Hi! I'm Hemang Kumar.</div>
+
+<div class="row">
+   <div class="welcome center">
+      <span style="font-family:'Neucha' !important;">HI!</span> I'm a <span style="color:crimson">Computer Science</span> Senior at <span style="color:blue">USICT, New Delhi</span>.<br> I <i style="color: red" class="fa fa-heart wel"></i> to learn, code, write and design stuff.
+   </div>
+</div>
+<br>
 <div class="links row">
    <div class="ic">
       <span class="fa-stack fa-lg">
@@ -59,9 +68,3 @@ order: 1
    </div>
 </div>
 <br><br>
-<div class="row">
-   <div class="welcome center">
-      <span style="font-family:'Neucha' !important;">HI!</span> I'M A <span style="color:crimson">COMPUTER SCIENCE</span> JUNIOR AT <span style="color:blue">USICT, NEW DELHI</span>.<br> I <i style="color: red" class="fa fa-heart wel"></i> TO LEARN, CODE, DESIGN AND WRITE STUFF.
-   </div>
-</div>
-<br><br> 

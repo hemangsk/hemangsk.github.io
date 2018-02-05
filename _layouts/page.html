@@ -3,19 +3,19 @@ layout: page_default
 ---
 
 <section id="story-title center center-block">
- 
+
 
 
 {% if page.alias == "projects" %}
-{% for project in site.data.projects %}  
+{% for project in site.data.projects %}
 <div class="card">
 
  <div class="card-content">
 
     <span class="card-title">{{project.title}}</span>
-    
+
         <p>{{project.desc}}</p>
-      
+
  </div>
  <div class="card-action">
  {{project.project_status}}
@@ -27,7 +27,7 @@ layout: page_default
 {% else %}
 
 
-    
+
 {% for post in site.posts%}
 {% for category in post.categories %}
 {% if category == page.alias %}
@@ -38,10 +38,10 @@ layout: page_default
   <a class='postLink' href="{{post.url}}">{{post.title}}</a>
   </div>
   <center class="postType">{{post.project_type}}</center>
- 
+
   <div class="container dateAndStuff">
     <div class="row">
-        POSTED ON
+        Posted on
        <span class="posted-on">
 
          {{ post.date | date: "%A, %B %-d, %Y" }}

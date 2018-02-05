@@ -1,7 +1,38 @@
+@font-face {
+	font-family: 'GT Walsheim';
+	src: url(../fonts/GT-Walsheim-Bold.ttf) format('truetype');
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: 'GT Walsheim';
+	src: url(../fonts/GT-Walsheim-Medium.ttf) format('truetype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'GT Walsheim';
+	src: url(../fonts/GT-Walsheim-Regular.ttf) format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'circular';
+	src: url(../fonts/circularstd-book-webfont.ttf) format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'circular';
+	src: url(../fonts/circularstd-medium-webfont.woff) format('woff');
+	font-weight: 500;
+}
 body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 h1,h2,h3{
 	font-weight: 100 !important;
@@ -38,17 +69,22 @@ footer .col {
 	font-family: "Farray";
 	src: url(../fonts/FARRAY.otf);
 }
+
+
+
 .middle-wrapper {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
 }
 .name {
-	font-family: Farray;
-	font-size: 4.5em;
+	font-family: "GT Walsheim";
+	font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .links {
-	display: flex
+	display: flex;
 }
 .links .ic {
 	flex: 1;
@@ -57,11 +93,12 @@ footer .col {
 	color: white !important;
 }
 .welcome {
-	font-family: 'Josefin Sans';
-	font-size: 1.1em;
-	font-weight: 600;
-	letter-spacing: 0.1em;
-	line-height: 1.5;
+	font-family: Circular;
+font-size: 1.1rem;
+line-height: 1.5;
+font-weight: 300;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
 }
 .row > .menu {
 	display: flex;
@@ -71,7 +108,7 @@ footer .col {
 	text-transform: uppercase;
 }
 .menu div a{
-	font-family: "Roboto";
+	font-family: "GT Walsheim";
 	font-size: 1em;
 	color: darkslategrey !important;
 	font-weight: 500;
@@ -86,26 +123,28 @@ footer .col {
 	margin-top: 3em !important;
 }
 .stTitle{
- font-family: "Josefin Sans";
+ font-family: "Circular";
  font-size: 3em;
  color: darkslategrey !important;
- font-weight: 600;
+ font-weight: 400;
  letter-spacing: 0.1em;
  text-transform: uppercase;
 }
 .stories-caption {
  text-align: center;
- font-family: "Neucha";
- letter-spacing: 0.1em;
+ font-family: "Circular";
  margin-bottom: 0em;
+ color: grey;
+font-size: 1.25rem;
 }
 .postLink{
- font-size: 1.2em;
- color: black;
- font-weight: 300;
- margin-top: 2em;
- border-bottom: 1px dotted black;
- padding-bottom: 0.1em;
+	font-size: 1.2em;
+	color: black;
+	font-weight: 400;
+	margin-top: 2em;
+	border-bottom: 1px dotted black;
+	padding-bottom: 0.1em;
+	font-family: "GT Walsheim";
 }
 .postLink:hover{
 	 color: cadetblue;
@@ -115,8 +154,8 @@ footer .col {
 }
 .dateAndStuff {
  text-align: center;
- font-family: "Neucha";
- letter-spacing: 0.1em;
+ color:lightgrey;
+ font-family: "Circular";
  margin-top: 1em !important;
 }
 .post-layout-cont  {
@@ -125,5 +164,7 @@ footer .col {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.75;
-}	
-	
+}
+.posted-on {
+	color: grey;
+}
