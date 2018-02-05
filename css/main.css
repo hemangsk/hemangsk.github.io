@@ -119,3 +119,11 @@ footer .col {
  letter-spacing: 0.1em;
  margin-top: 1em !important;
 }
+.post-layout-cont  {
+	text-align: justify;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.75;
+}	
+	
