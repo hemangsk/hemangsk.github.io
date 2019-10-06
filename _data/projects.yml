@@ -1,3 +1,43 @@
+- title:  "Lok Sabha Election 2019 Results Analysis"
+  categories: "projects"
+  author: "Hemang Kumar"
+  project_url: "https://data.indianexpress.com/lok-sabha-elections-results-2019-live-counting/"
+  project_type: "Data Journalism"
+  desc: "An interactive dashboard to guide you through the Lok Sabha election results 2019."
+  project_status: "Completed"
+  image: "https://data.indianexpress.com/lok-sabha-elections-results-2019-live-counting/assets/meta.png"
+
+
+- title:  "Pick Your Cabinet"
+  categories: "projects"
+  author: "Hemang Kumar"
+  project_url: "https://data.indianexpress.com/dream-cabinet/"
+  project_type: "Data Journalism"
+  desc: "You can select a prime minister of your choice and his/her council of ministers."
+  project_status: "Completed"
+  image: "https://data.indianexpress.com/dream-cabinet/assets/meta/meta.png"
+
+
+- title:  "Assembly Elections - Know Your Candidates"
+  categories: "projects"
+  author: "Hemang Kumar"
+  project_url: "https://data.indianexpress.com/assembly-elections/know-your-candidates/#/chhattisgarh/Bharatpur-sonhat"
+  project_type: "Data Journalism"
+  desc: "Interactive map where users can click on constituencies and view candidates."
+  project_status: "Completed"
+  image: "https://data.indianexpress.com/assembly-elections/know-your-candidates/assets/meta.png"
+
+
+- title:  "How good a test captain is Virat Kohli?"
+  categories: "projects"
+  author: "Hemang Kumar"
+  project_url: "https://data.indianexpress.com/virat-kohli-india-test-captains-compared/"
+  project_type: "Data Journalism"
+  desc: "Explore how the Indian test captains stack up against each other."
+  project_status: "Completed"
+  image: "https://data.indianexpress.com/virat-kohli-india-test-captains-compared/meta.png?v1"
+
+
 - title:  "automata-python"
   categories: "projects"
   author: "Hemang Kumar"

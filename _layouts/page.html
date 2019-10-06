@@ -5,27 +5,27 @@ layout: page_default
 <section id="story-title center center-block">
 
 
-
+<div class="row">
 {% if page.alias == "projects" %}
 {% for project in site.data.projects %}
-<div class="card">
-
- <div class="card-content">
-
-    <span class="card-title">{{project.title}}</span>
-
-        <p>{{project.desc}}</p>
-
- </div>
- <div class="card-action">
- {{project.project_status}}
- </div>
-
+<div class="col m12 s12">
+  <div class="card project-card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="{{ project.image }}">
+    </div>
+    <div class="card-content">
+      <span class="card-title">{{project.title}}</span>
+      <p>{{project.desc}}</p>
+    </div>
+    <div class="card-action center">
+      <a class="btn waves-effect white black-text" target="_blank"
+      href="{{project.project_url}}">View</a>
+    </div>
+    </div>
 </div>
-<br><br>
 {%  endfor %}
+</div>
 {% else %}
-
 
 
 {% for post in site.posts%}

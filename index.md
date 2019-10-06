@@ -37,7 +37,7 @@ order: 1
 
 <div class="row">
    <div class="welcome center">
-    I'm a <span style="color:crimson">Computer Science</span> Senior at <span style="color:blue">USICT, New Delhi</span>.<br> I <i style="color: red" class="fa fa-heart wel"></i> to learn, code, write and design stuff.
+    <span style="color:crimson">Data Visualisation</span> & <span style="color:blue">Frontend</span> Developer.<br> I <i style="color: red" class="fa fa-heart wel"></i> to learn, code, write and design stuff.
    </div>
 </div>
 <br>
