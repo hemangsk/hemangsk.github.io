@@ -1,2 +1,0 @@
-# hemangsk.github.io
-Journal
