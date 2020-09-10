@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+contact {
+    align-self: center;
+    text-align: center;
+}

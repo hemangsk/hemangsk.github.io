@@ -1,0 +1,21 @@
+@import '~src/colors';
+
+
+.card {
+    padding: 12px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    height: 50px;
+
+    h4 {
+        margin: 0;
+    }
+
+    &.orange {
+        background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    }
+
+    &.blue {
+        background: $pastel-blue
+    }
+}
