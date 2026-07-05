@@ -294,6 +294,15 @@
 		background: #e8e8e2;
 		color: #0f0f0e;
 	}
+	@media (prefers-color-scheme: light) {
+		:global(html, body) {
+			background: #f0efe9;
+		}
+		:global(::selection) {
+			background: #0f0f0e;
+			color: #f0efe9;
+		}
+	}
 
 	.page {
 		--bg: #0f0f0e;
@@ -301,6 +310,7 @@
 		--bright: #f4f4ee;
 		--dim: #84847d;
 		--rule: #2e2e2a;
+		--scanline: rgba(255, 255, 255, 0.016);
 		--pad: clamp(0.8rem, 2.4vmin, 2rem);
 		box-sizing: border-box;
 		height: 100vh;
@@ -313,6 +323,16 @@
 		font-family: 'Martian Mono', 'Courier New', monospace;
 		position: relative;
 		overflow: hidden;
+	}
+	@media (prefers-color-scheme: light) {
+		.page {
+			--bg: #f0efe9;
+			--ink: #2b2b26;
+			--bright: #111110;
+			--dim: #63635c;
+			--rule: #d8d6cc;
+			--scanline: rgba(0, 0, 0, 0.02);
+		}
 	}
 	.page :global(*),
 	.page :global(*::before),
@@ -698,8 +718,15 @@
 		pointer-events: none;
 		opacity: 0.5;
 		background-image:
-			repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.016) 0 1px, transparent 1px 3px),
+			repeating-linear-gradient(0deg, var(--scanline) 0 1px, transparent 1px 3px),
 			url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2"/><feColorMatrix type="matrix" values="0 0 0 0 0.9 0 0 0 0 0.9 0 0 0 0 0.9 0 0 0 0.05 0"/></filter><rect width="180" height="180" filter="url(%23n)"/></svg>');
+	}
+	@media (prefers-color-scheme: light) {
+		.grain {
+			background-image:
+				repeating-linear-gradient(0deg, var(--scanline) 0 1px, transparent 1px 3px),
+				url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2"/><feColorMatrix type="matrix" values="0 0 0 0 0.1 0 0 0 0 0.1 0 0 0 0 0.1 0 0 0 0.05 0"/></filter><rect width="180" height="180" filter="url(%23n)"/></svg>');
+		}
 	}
 
 	/* ---------- animation ---------- */
